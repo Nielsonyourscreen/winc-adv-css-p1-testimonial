@@ -1,0 +1,59 @@
+/*Colors*/
+/*Spacing*/
+body {
+  background-color: #c3cfe2;
+  margin: 0 auto;
+}
+
+/* Assignment */
+.testimonial {
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px grey, 0 8px 8px rgb(85, 85, 85);
+  width: 400px;
+  height: auto;
+  font-family: "Lato", sans-serif;
+}
+
+.card {
+  padding: 40px;
+}
+.card p {
+  color: #555;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+  padding-bottom: 10px;
+}
+
+.testimonial-footer {
+  background-color: #686de0;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #fff;
+}
+.testimonial-footer p {
+  color: rgb(141, 147, 226);
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 3px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.testimonial-footer img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  text-align: center;
+  margin-top: -60px;
+  margin-bottom: -10px;
+}
+.testimonial-footer h3 {
+  letter-spacing: 3px;
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 0;
+}/*# sourceMappingURL=styles.css.map */

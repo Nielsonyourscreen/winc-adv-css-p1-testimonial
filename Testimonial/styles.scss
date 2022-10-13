@@ -1,0 +1,60 @@
+@import "testimonial";
+
+body {
+  background-color: #c3cfe2;
+  margin: 0 auto;
+}
+
+/* Assignment */
+.testimonial {
+  margin: $standardSize;
+  background-color: #fff;
+  border-radius: $standardSize;
+  box-shadow: 0 10px $standardSize grey, 0 8px 8px $cardColorDarkGrey;
+  width: 400px;
+  height: auto;
+  font-family: "Lato", sans-serif;
+}
+
+.card {
+  padding: 40px;
+  p {
+    color: #555;
+    font-size: $standardSize;
+    font-weight: 600;
+    line-height: 1.6;
+    padding-bottom: 10px;
+  }
+}
+
+.testimonial-footer {
+  background-color: #686de0;
+  text-align: center;
+  border-bottom-left-radius: $standardSize;
+  border-bottom-right-radius: $standardSize;
+  color: $cardColorWhite;
+  p {
+    color: $footerColorBlue;
+    font-size: $standardSize;
+    letter-spacing: 2px;
+    margin-top: 3px;
+    padding-bottom: $standardSize;
+    font-weight: 600;
+  }
+  img {
+    border: 5px solid $cardColorWhite;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: -10px;
+  }
+
+  h3 {
+    letter-spacing: 3px;
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+}
